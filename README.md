@@ -4,8 +4,13 @@ Programming in Parallel Environment MFF UK
 
 ## 1. assignment - C# .NET Core Tasks: Asynchronous DNS resolver 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| 01             | 02             | 03             | 04             | Total speedup |
+|----------------|----------------|----------------|----------------|---------------|
+| 484 ms (1.00x) | 485 ms (1.00x) | 312 ms (1.00x) | 312 ms (1.00x) | 1.00x         |
+| 364 ms (1.33x) | 117 ms (4.15x) | 110 ms (2.84x) | 110 ms (2.84x) | 2.36x         |
+
+| 01             | 02             | 03             | 04             | Total speedup |
+|----------------|----------------|----------------|----------------|---------------|
+| 485 ms (1.00x) | 485 ms (1.00x) | 312 ms (1.00x) | 312 ms (1.00x) | 1.00x         |
+| 358 ms (1.35x) | 117 ms (4.15x) | 110 ms (2.84x) | 110 ms (2.84x) | 2.37x         |
 
